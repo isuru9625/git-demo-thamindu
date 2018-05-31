@@ -6,6 +6,8 @@ public class Main {
        int a;
        int b;
        String operation;
+      int c;
+      
        int answer;
        Scanner scanner = new Scanner(System.in);
        System.out.println("Welcome to my calculator");
@@ -23,11 +25,11 @@ public class Main {
        }
    }
 
-   private static int add(int a, int b) {
-       return a + b;
+   private static int add(int a, int b, int c) {
+       return a + b + c;
    }
 
-   private static int minus(int a, int b) {
-       return a - b;
+   private static int minus(int a, int b, int c) {
+       return a - b -c;
    }
 }
